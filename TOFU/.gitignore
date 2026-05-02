@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+venv/
+.venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Byte-compiled / logs / results
+*.log
+log/
+logs/
+result/
+results/
+output/
+
+# PyTorch / model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+pytorch_model.bin
+*.safetensors
+*.bin
+
+# Transformers / HF cache
+.cache/
+transformers_cache/
+.huggingface/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Conda
+conda-meta/
+
+# Ignore large binary dataset artifacts (keep JSON/JSONL)
+data/*.pt
+data/*.bin
