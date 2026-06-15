@@ -17,4 +17,4 @@ __pycache__/
 .vscode/
 .idea/
 
-MUSE/temp/
+./MUSE/temp/
